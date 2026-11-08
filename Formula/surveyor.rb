@@ -5,24 +5,24 @@
 class Surveyor < Formula
   desc "Code intelligence graph with provenance, from the command line or over MCP"
   homepage "https://github.com/andrewdean/surveyor"
-  version "0.1.0"
+  version "0.2.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/andrewdean/surveyor/releases/download/v0.1.0/surveyor-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "6a28c5126666d640ebcf2daed740c457b87531a069823cb3fcbc71e82f68eac8"
+      url "https://github.com/andrewdean/surveyor/releases/download/v0.2.0/surveyor-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "a01fb9f8001d3fd34ab23da3740d53377597c5d112a0cbae2c4fbacd3171e335"
     end
     on_intel do
-      url "https://github.com/andrewdean/surveyor/releases/download/v0.1.0/surveyor-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "1e59241710176857c6b77daf81369fe8389458dc72b85c7e2dde1a1992a2d56c"
+      url "https://github.com/andrewdean/surveyor/releases/download/v0.2.0/surveyor-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "6bd11ad36700bf54abd295d93cc2c1ff059d3eba16d05397981b9c120d7c836c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/andrewdean/surveyor/releases/download/v0.1.0/surveyor-0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d93bc1fe10737e73f9ebe81ffe4cbf34508f8a350bed60636b23f3aa1f037dc1"
+      url "https://github.com/andrewdean/surveyor/releases/download/v0.2.0/surveyor-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "0dcbac65a47bd483aa7838cd8b034c9a0afa484316271a92e2b031bb16c8d6c4"
     end
   end
 
