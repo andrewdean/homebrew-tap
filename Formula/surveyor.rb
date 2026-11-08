@@ -8,6 +8,12 @@ class Surveyor < Formula
   version "0.2.0"
   license "Apache-2.0"
 
+  # The default is the Apple silicon archive; the blocks below pick the right one on
+  # every platform that has an archive. Without a default, `brew tap` rejects the
+  # formula for the platforms that have none (Linux on ARM), so no one can tap it.
+  url "https://github.com/andrewdean/surveyor/releases/download/v0.2.0/surveyor-0.2.0-aarch64-apple-darwin.tar.gz"
+  sha256 "a01fb9f8001d3fd34ab23da3740d53377597c5d112a0cbae2c4fbacd3171e335"
+
   on_macos do
     on_arm do
       url "https://github.com/andrewdean/surveyor/releases/download/v0.2.0/surveyor-0.2.0-aarch64-apple-darwin.tar.gz"
